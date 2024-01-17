@@ -6,17 +6,30 @@
     border-bottom: #000 1px solid;
     display: flex;
     height: 100%;
+    position: relative;
 }
-.logo{
+
+.logo {
     margin-left: 5%;
 }
+
 .logo a {
     font-family: var(--principal-font-family);
     font-size: 18px;
-    color:var(--color-logo);
+    color: var(--color-logo);
     text-decoration: none;
     white-space: nowrap;
 }
+
+.nav-links {
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    /* Posiciona a la mitad del contenedor */
+    transform: translateX(-50%);
+    /* Centra el elemento exactamente */
+}
+
 .nav-links a {
     font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
     white-space: nowrap;
@@ -32,9 +45,9 @@
 }
 
 .nav-icons {
-    
+
     display: flex;
-    
+
 }
 
 .nav-icons a {
@@ -54,15 +67,17 @@
     border: #000 1px solid;
 }
 
-.search-icon{
+.search-icon {
     display: flex;
 }
-.search-icon:hover .nav-search-box input[type=text]{
+
+.search-icon:hover .nav-search-box input[type=text] {
     transition: all 1s ease-out;
     display: flex;
     clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }
-.nav-search-box:focus input[type=text]{
+
+.nav-search-box:focus input[type=text] {
     clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }
 
