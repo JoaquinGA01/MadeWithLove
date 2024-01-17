@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    background-color: #ffe3e3;
+}
+
+/* Fuentes Importadas */
+@font-face {
+    font-family: "Amsterdam-One";
+    src: url("https://anima-uploads.s3.amazonaws.com/projects/624111584442e8e0bb642994/fonts/amsterdamone-ez12l.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Abhaya Libre ExtraBold-Regular";
+    src: url("https://anima-uploads.s3.amazonaws.com/projects/612cee6e7d4dd4a7d49e33de/fonts/abhayalibre-extrabold.ttf") format("truetype");
+}
+
+/* Final Seccion Fuentes Importadas*/
+:root{
+    --principal-font-family: "Amsterdam-One", Helvetica;
+    --color-logo: rgba(203, 77, 126, 1);
+}
+
+/*Variables Generales*/
+
+
+/*Final Variables Generales*/

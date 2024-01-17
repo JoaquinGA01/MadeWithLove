@@ -1,0 +1,72 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: #000 1px solid;
+    display: flex;
+    height: 100%;
+}
+.logo{
+    margin-left: 5%;
+}
+.logo a {
+    font-family: var(--principal-font-family);
+    font-size: 18px;
+    color:var(--color-logo);
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-links a {
+    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    white-space: nowrap;
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.nav-icons {
+    
+    display: flex;
+    
+}
+
+.nav-icons a {
+    margin: 0 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-search-box input[type=text] {
+    float: right;
+    padding: 4px;
+    margin-right: 4px;
+    border: none;
+    font-size: 17px;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    transition: clip-path .3s;
+    border: #000 1px solid;
+}
+
+.search-icon{
+    display: flex;
+}
+.search-icon:hover .nav-search-box input[type=text]{
+    transition: all 1s ease-out;
+    display: flex;
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+}
+.nav-search-box:focus input[type=text]{
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+}
+
+
+
+
+/* Agrega estilos adicionales para los íconos si es necesario */

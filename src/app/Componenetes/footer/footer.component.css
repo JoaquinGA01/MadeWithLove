@@ -1,0 +1,41 @@
+.footer-container {
+    padding: 20px;
+    color: #000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo a {
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: var(--principal-font-family);
+    color: var(--color-logo);
+    text-decoration: none;
+}
+.footer-logo-complemento{
+
+}
+
+.footer-links a,
+.footer-legal a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-social-media a {
+    margin: 0 5px;
+    color: #000;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
