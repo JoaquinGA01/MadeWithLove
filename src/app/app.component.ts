@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './Componenetes/header/header.component';
-import { FooterComponent } from './Componenetes/footer/footer.component';
+import { HeaderComponent } from './Componentes/header/header.component';
+import { FooterComponent } from './Componentes/footer/footer.component';
 import { MainPageComponent } from './Paginas/main-page/main-page.component';
 import { ProfileComponent } from './Paginas/profile/profile.component';
 import { ShoppingBagPageComponent } from './Paginas/shopping-bag-page/shopping-bag-page.component';
