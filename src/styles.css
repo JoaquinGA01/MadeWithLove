@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    background-color: #ffe3e3;
+    background-color: var(--background-color);
 }
 
 /* Fuentes Importadas */
@@ -17,7 +17,9 @@
 /* Final Seccion Fuentes Importadas*/
 :root{
     --principal-font-family: "Amsterdam-One", Helvetica;
+    --principal-font-body-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
     --color-logo: rgba(203, 77, 126, 1);
+    --background-color: #ffe3e3;
 }
 
 /*Variables Generales*/
