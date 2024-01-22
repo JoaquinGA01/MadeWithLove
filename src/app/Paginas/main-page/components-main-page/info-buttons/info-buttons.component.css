@@ -25,6 +25,8 @@
     background-color:#ffffff;
   }
 
+  .Card:Hover{transform: scale(1.02)}
+
   .Card .title {
     background-color: #ffffff;
     font-family: "Poppins-Medium", Helvetica;

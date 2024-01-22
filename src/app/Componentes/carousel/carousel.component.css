@@ -4,6 +4,7 @@
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     height: 100%; /* Altura total de la ventana */
+   
     margin: 1%;
 }
 

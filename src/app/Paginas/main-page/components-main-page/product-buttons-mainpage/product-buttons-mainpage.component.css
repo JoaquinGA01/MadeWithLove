@@ -12,7 +12,7 @@
 .product-container .product-details {
     position: relative;
     min-width: 25%;
-    min-height: 550px;
+    min-height: 439px;
     box-shadow: 12px 22px 4px #00000040;
     background-image: url(https://c.animaapp.com/rfxwtNFp/img/paste-image-5.svg);
     background-size: 100% 100%;
@@ -62,6 +62,7 @@
 .product-container .div {
     display: flex;
     width: 101%;
+    height: auto;
     top: 10%;
     left: 10%;
     flex-direction: column;

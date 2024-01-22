@@ -1,0 +1,22 @@
+.product-slider {
+    /* ... */
+  }
+  
+  .product-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .product-card {
+    /* ... */
+  }
+  
+  .scrollbar-container {
+    /* ... */
+  }
+  
+  .scroll-button {
+    /* ... */
+  }
+  
