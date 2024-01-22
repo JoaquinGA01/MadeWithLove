@@ -1,36 +1,33 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-carousel',
-  standalone: true,
-  imports: [],
-  templateUrl: './carousel.component.html',
-  styleUrl: './carousel.component.css'
+    selector: 'app-carousel',
+    standalone: true,
+    imports: [],
+    templateUrl: './carousel.component.html',
+    styleUrl: './carousel.component.css'
 })
 export class CarouselComponent {
-  name = 'Angular';
-  imageObject = [{
-      image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/5.jpg',
-      thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/5.jpg',
-      title: 'Hummingbirds are amazing creatures'
-  }, {
-      image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/9.jpg',
-      thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/9.jpg'
-  }, {
-      image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/4.jpg',
-      thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/4.jpg',
-      title: 'Example with title.'
-  },{
-      image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-      thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-      title: 'Hummingbirds are amazing creatures'
-  }, {
-      image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg',
-      thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg'
-  }, {
-      image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-      thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-      title: 'Example two with title.'
-  }];
+    slides: string[];
+    i: number;
 
+    constructor() {
+        this.i = 0;
+        this.slides = [
+            'https://ep01.epimg.net/elcomidista/imagenes/2022/10/31/articulo/1667206537_604382_1667230832_noticia_normal.jpg',
+            'https://storage.googleapis.com/css-photos/menu-photos/1d2d5a63-1603-473b-9464-e8fa6787f40b.jpeg',
+            'https://ep01.epimg.net/elcomidista/imagenes/2022/01/11/receta/1641893642_902475_1641893828_noticia_normal.jpg',
+        ];
+    }
+    getSlide() {
+        return this.slides[this.i];
+    }
+
+    getPrev() {
+        this.i == 0 ? (this.i = this.slides.length - 1) : this.i--;
+    }
+
+    getNext() {
+        this.i < this.slides.length - 1 ? this.i++ : (this.i = 0);
+    }
 }
