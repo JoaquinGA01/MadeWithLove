@@ -1,0 +1,46 @@
+*{
+    text-decoration: none;
+}
+
+.Values {
+    display: flex;
+    width: 85%;
+    align-items: center;
+    gap: 15px;
+    padding: 48px 93px;
+    position: relative;
+    background-color: #ffe3e3;
+  }
+
+  .Values .Card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 198px;
+    gap: 15px;
+    padding: 31px 13px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color:#ffffff;
+  }
+
+  .Card .title {
+    background-color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 100%;
+    color: black;
+  }
+
+  .Card .subtitle{
+    background-color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 60%;
+    color: black;
+  }
+
+  .Card .Icon{
+    position: relative;
+    width: 10%;
+    background-color:#ffffff;
+  }

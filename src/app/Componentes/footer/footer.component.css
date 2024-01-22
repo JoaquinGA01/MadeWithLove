@@ -2,8 +2,13 @@
     padding: 20px;
     color: #000;
     height: 100%;
+
     position: relative;
     border-top: #000 1px solid;
+    
+}
+*{
+    background-color: #f7c7d2;
 }
 
 .footer-content {
@@ -16,10 +21,11 @@
 }
 .footer-logo{
     margin-left: 5%;
+ 
 }
 .footer-logo a {
     white-space: nowrap;
-    font-size: 16px;
+    font-size: 24px;
     font-family: var(--principal-font-family);
     color: var(--color-logo);
     text-decoration: none;
@@ -27,6 +33,7 @@
 .footer-copy{
     display: flex; 
     margin-left: 5%;
+
 }
 .footer-links{
     align-items: center;
@@ -54,12 +61,18 @@
     /* Centra el elemento exactamente */
 }
 
+.navbuttons{
+    font-family: "Inter-Regular", Helvetica;
+}
+
 .footer-social-media a {
     margin: 0 5px;
     color: #000;
+  
 }
 .footer-social-media{
     margin-right: 5%;
+    
 }
 
 .footer-copy {

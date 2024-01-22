@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-product-buttons-mainpage',
+  selector: 'app-info-buttons',
   standalone: true,
   imports: [CommonModule, RouterLink],
-  templateUrl: './product-buttons-mainpage.component.html',
-  styleUrl: './product-buttons-mainpage.component.css'
+  templateUrl: './info-buttons.component.html',
+  styleUrl: './info-buttons.component.css'
 })
-export class ProductButtonsMainpageComponent {
+export class InfoButtonsComponent {
 
 }

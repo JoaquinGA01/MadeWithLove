@@ -11,11 +11,12 @@
 
 .logo {
     margin-left: 5%;
+    
 }
 
 .logo a {
     font-family: var(--principal-font-family);
-    font-size: 18px;
+    font-size: 150%;
     color: var(--color-logo);
     text-decoration: none;
     white-space: nowrap;
