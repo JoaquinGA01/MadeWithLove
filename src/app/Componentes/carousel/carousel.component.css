@@ -48,4 +48,5 @@
     /* Mantiene la proporción de la imagen */
     animation: fadeIn 1s ease-in-out;
     /* Aplica la animación */
+    border-radius: 8px;
 }
