@@ -1,0 +1,31 @@
+.account-container {
+    display: flex;
+    /* Agrega aquí más estilos para alinear tu contenido como en el diseño */
+  }
+  
+  .sidebar {
+    /* Estilos para la barra lateral */
+  }
+  
+  .sidebar .profile {
+    /* Estilos para la sección del perfil */
+  }
+  
+  .sidebar .profile img {
+    /* Estilos para la imagen de perfil */
+  }
+  
+  .sidebar .navigation {
+    /* Estilos para la navegación */
+  }
+  
+  .account-details {
+    /* Estilos para los detalles de la cuenta */
+  }
+  
+  .account-details form {
+    /* Estilos para el formulario */
+  }
+  
+  /* Asegúrate de agregar estilos específicos para los botones, campos de texto, etiquetas, etc. */
+  
