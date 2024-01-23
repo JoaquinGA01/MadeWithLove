@@ -1,0 +1,11 @@
+<div class="subscription-container">
+    <div class="subscription-text">
+        No pierdas la oportunidad. Recibe las ofertas primero
+    </div>
+    <div class="email-input-container">
+        <input type="email" placeholder="Ingresa tu dirección de correo" class="email-input" #emailInput>
+        <button class="subscribe-button" (click)="subscribe(emailInput.value)">
+            Quiero recibir ofertas por correo
+        </button>
+    </div>
+</div>
