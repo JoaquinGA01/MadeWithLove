@@ -1,31 +1,103 @@
 .account-container {
     display: flex;
+    align-items: center;
+   
+    height: 115%;
+    width: 1120px;
     /* Agrega aquí más estilos para alinear tu contenido como en el diseño */
-  }
-  
-  .sidebar {
-    /* Estilos para la barra lateral */
-  }
-  
-  .sidebar .profile {
-    /* Estilos para la sección del perfil */
-  }
-  
-  .sidebar .profile img {
-    /* Estilos para la imagen de perfil */
   }
   
   .sidebar .navigation {
     /* Estilos para la navegación */
   }
   
+  .form{
+    width: 706px;
+  }
+
   .account-details {
     /* Estilos para los detalles de la cuenta */
+    display: flex;
+    padding: 0px 72px;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
   }
   
   .account-details form {
     /* Estilos para el formulario */
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+
   }
   
+  .input-holder{
+    width: 100%;
+  }
+
   /* Asegúrate de agregar estilos específicos para los botones, campos de texto, etiquetas, etc. */
   
+
+  /* Estilos generales */
+body, h3, ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Estilos del sidebar */
+.sidebar {
+  background-color: #FFC0CB; /* Color de fondo rosado */
+  width: 250px; /* Ancho del sidebar */
+  padding: 1em; /* Espaciado interior */
+  box-sizing: border-box; /* Para que el padding no afecte el ancho */
+  border-radius: 8px;
+}
+
+/* Estilos del perfil */
+.sidebar .profile {
+  text-align: center; /* Centrar elementos del perfil */
+  margin-bottom: 2em; /* Espaciado debajo del perfil */
+}
+
+.sidebar .profile img {
+  border-radius: 50%; /* Hacer la imagen redonda */
+  width: 80px; /* Ancho de la imagen */
+  height: 80px; /* Altura de la imagen */
+  object-fit: cover; /* Asegurar que la imagen cubra todo el espacio */
+  border: 2px solid white; /* Borde blanco alrededor de la imagen */
+}
+
+.sidebar .profile h3 {
+  color: white; /* Color de texto blanco */
+  font-size: 1.2em; /* Tamaño de fuente */
+  margin-top: 0.5em; /* Espaciado arriba del nombre */
+}
+
+/* Estilos de navegación */
+.sidebar .navigation ul {
+  padding: 0;
+}
+
+.sidebar .navigation li {
+  background-color: white; /* Fondo blanco para los items */
+  margin-bottom: 0.2em; /* Espaciado entre items */
+}
+
+.sidebar .navigation a {
+  color: #555; /* Color de texto */
+  display: block; /* Hacer que el enlace llene el li */
+  padding: 0.8em 1em; /* Espaciado dentro de cada item */
+  font-size: 1em; /* Tamaño de la fuente */
+}
+
+.navigation a:hover {
+  background-color: #f2f2f2; /* Color de fondo al pasar el mouse */
+}

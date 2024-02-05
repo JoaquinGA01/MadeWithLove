@@ -1,0 +1,32 @@
+/* filtro.component.css */
+* {
+    background-color: white;
+}
+
+.filtro-container {
+    /* Estilos del contenedor principal, ajustar según sea necesario */
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    display: flex;
+    width: 60%;
+    min-height: 547px;
+    height: auto;
+    padding: 20px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+}
+
+.filtro-seccion {
+    margin-bottom: 10px;
+}
+
+.filtro-seccion h3 {
+    /* Estilos para el título de cada sección */
+    cursor: pointer;
+}
+
+.filtro-seccion div {
+    /* Estilos para el contenido desplegable de cada sección */
+}

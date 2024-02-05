@@ -1,0 +1,19 @@
+<!-- filtro.component.html -->
+<div class="filtro-container">
+    <div class="filtro-seccion">
+      <h3 (click)="toggleSeccion('expandirArreglosFlorales')">Arreglos Florales</h3>
+      <div *ngIf="secciones['expandirArreglosFlorales']">
+        <!-- Contenido desplegable de arreglos florales -->
+        <div>Teexto prueba</div>
+      </div>
+    </div>
+    <div class="filtro-seccion">
+      <h3 (click)="toggleSeccion('expandirPrecio')">Precio</h3>
+      <div *ngIf="secciones['expandirPrecio']">
+        <!-- Contenido desplegable de precio -->
+        <div class="seccion">texto prueba precio</div>
+      </div>
+    </div>
+    <!-- ... más secciones -->
+  </div>
+  
