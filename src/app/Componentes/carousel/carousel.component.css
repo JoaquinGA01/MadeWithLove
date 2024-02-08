@@ -1,6 +1,7 @@
 /* Estilo del contenedor principal del carrusel */
 .carousel-slide {
     display: flex;
+    flex-direction: column; /* Cambia la dirección del main-axis a vertical */
     /* Habilita flexbox */
     justify-content: center;
     /* Centra horizontalmente */
@@ -13,10 +14,12 @@
 }
 
 /* Estilo de la imagen y las flechas */
-.carousel-inner,
-.Boton-Flecha {
-    flex: none;
+.carousel-inner {
+    display: flex;
     /* Evita que los elementos se estiren */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 
@@ -28,6 +31,7 @@
     /* Elimina los bordes */
     cursor: pointer;
     /* Cambia el cursor a mano */
+    align-self: center;
 }
 
 /* Animación de aparición para la imagen */

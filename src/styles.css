@@ -1,9 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 * {
    
-    /*background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/pixel-heart.png);*/
-    background-color: var(--background-color);
-  
+    /*background-image: url(../src/img/1.webp);*/
+   background-color: var(--background-color);
+   
 }
 body{
     margin: 0;
