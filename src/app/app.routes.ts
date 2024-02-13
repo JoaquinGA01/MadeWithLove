@@ -4,13 +4,14 @@ import { DetailProductPageComponent } from './Paginas/detail-product-page/detail
 import { CategoryPageComponent } from './Paginas/category-page/category-page.component';
 import { ProfileComponent } from './Paginas/profile/profile.component';
 import { ShoppingBagPageComponent } from './Paginas/shopping-bag-page/shopping-bag-page.component';
+import { LogInRegisterComponent } from './Paginas/log-in-register/log-in-register.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/Inicio', pathMatch: 'full' },
     { path: 'Inicio', component: MainPageComponent },
     { path: 'Categorias', component: CategoryPageComponent },
     {path: 'Producto', component: DetailProductPageComponent}, 
-    {path: 'Perfil', component: ProfileComponent},
+    {path: 'Perfil', component: LogInRegisterComponent},
     {path: 'Bolsadecompra', component: ShoppingBagPageComponent}
 
 ];

@@ -9,6 +9,7 @@
 .subscription-container {
   border-radius: 15px;
   margin-left: 2%;
+  margin-bottom: 2px;
   color: white;
   padding: 20px;
   display: flex;

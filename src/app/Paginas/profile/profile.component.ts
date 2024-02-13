@@ -11,21 +11,21 @@ import { Address } from './address.model';
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css'
 })
-export class ProfileComponent implements OnInit{
+export class ProfileComponent {
   user: User | undefined;
   address: Address | undefined;
   activeView: string = 'details'; // 'details', 'addresses', etc.
 
-  constructor(private userService: UserService) {}
+  // constructor(private userService: UserService) {}
 
-  ngOnInit() {
-    this.userService.getUser().subscribe(user => {
-      this.user = user;
-    });
-    this.userService.getAddress().subscribe(address => {
-      this.address = address;
-    });
-  }
+  // ngOnInit() {
+  //   this.userService.getUser().subscribe(user => {
+  //     this.user = user;
+  //   });
+  //   this.userService.getAddress().subscribe(address => {
+  //     this.address = address;
+  //   });
+  // }
 
   changeView(view: string): void {
     this.activeView = view;

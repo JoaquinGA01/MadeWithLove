@@ -8,13 +8,14 @@ import { ProfileComponent } from './Paginas/profile/profile.component';
 import { ShoppingBagPageComponent } from './Paginas/shopping-bag-page/shopping-bag-page.component';
 import { DetailProductPageComponent } from './Paginas/detail-product-page/detail-product-page.component';
 import { CategoryPageComponent } from './Paginas/category-page/category-page.component';
+import { LogInRegisterComponent } from './Paginas/log-in-register/log-in-register.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, MainPageComponent, ProfileComponent, 
-    ShoppingBagPageComponent, DetailProductPageComponent, CategoryPageComponent],
+    ShoppingBagPageComponent, DetailProductPageComponent, CategoryPageComponent, LogInRegisterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
