@@ -11,9 +11,8 @@
             <div class="listado">mostrando productos </div>
         </div>
         <div class="product-list">
-            <div class="product-item"><!--*ngFor="let product of products"-->
-                <img class="Product-Img"
-                    alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+            <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                <img src="./img/01.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
                 <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
                 <p class="class-desc"><!--{{ product.description }}-->5 puchunguitos de sabores</p>
                 <div class="price">
@@ -24,7 +23,7 @@
                 <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
             </div>
             <div class="product-item"><!--*ngFor="let product of products"-->
-                <img class="Product-Img"
+                <img class="Product-Img" src="./img/02.png"
                     alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
                 <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
                 <p class="class-desc"><!--{{ product.description }}-->5 puchunguitos de sabores</p>
