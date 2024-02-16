@@ -6,11 +6,10 @@
     justify-content: center;
     /* Centra horizontalmente */
     align-items: center;
-    /* Centra verticalmente */
-    height: 100%;
     /* Altura total de la ventana */
-
     margin: 1%;
+
+    margin-bottom: 5%;
 }
 
 /* Estilo de la imagen y las flechas */
@@ -32,6 +31,7 @@
     cursor: pointer;
     /* Cambia el cursor a mano */
     align-self: center;
+    margin: 0 5px;
 }
 
 /* Animación de aparición para la imagen */
@@ -47,7 +47,7 @@
 
 .carousel-inner img {
     width: auto;
-    height: 500px;
+    height: 400px;
     /* Tamaño de la imagen, ajusta según sea necesario */
     
     /* Mantiene la proporción de la imagen */
