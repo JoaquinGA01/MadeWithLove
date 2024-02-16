@@ -4,7 +4,7 @@
 
 .Values {
   display: flex;
-  width: 85%;
+
   align-items: center;
   gap: 15px;
   padding: 48px 93px;
