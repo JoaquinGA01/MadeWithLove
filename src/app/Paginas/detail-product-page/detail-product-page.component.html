@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<div>
-
+<div class="route-container-detailp">
+    <p class="route-details">Principal > Tienda > Cupcakes > Mini-cupcakes</p>
 </div>
-<div>
-    <div>
-
+<hr class="LINE">
+<div class="layout">
+    <div class="image-desc-section">
+        <div class="container-imagen1" (click)="setFeaturedImage('image1')">
+            <img class="imagen1" src="./assets/Imagenes-detail-product-page/pastel1.png" alt="image1" />
+        </div>
+        <div class="product-image">
+            <img class="featured-image" [src]="featuredImage" alt="featured image" />
+        </div>
+        <div class="container-imagen2" (click)="setFeaturedImage('image2')">
+            <img class="imagen2" src="./assets/Imagenes-detail-product-page/pastel2.png" alt="image2" />
+        </div>
+        <div class="container-imagen3" (click)="setFeaturedImage('image3')">
+            <img class="imagen3" src="./assets/Imagenes-detail-product-page/pastel3.png" alt="image3" />
+        </div>
     </div>
+
     <div class="section-desc-item">
         <div class="desc-item">
             <h2 class="tittle">Titulo </h2>
@@ -14,21 +27,46 @@
             <p class="descripcion">Corazón de madera con girasoles, vino, ferreros y copa personalizada con nombre,
                 globo y frase personalizada en la caja</p>
         </div>
+        <hr class="LINE">
         <div class="papel-desc">
-
+            <h2 class="title">Seleccionar colores</h2>
+            <button class="button-color"></button>
+            <button class="button-color"></button>
+            <button class="button-color"></button>
         </div>
+        <hr class="LINE">
         <div class="sabor-selection">
             <h2 class="title">Seleccionar chocolates</h2>
-            <button>Ferrero</button>
-            <button>Kisses</button>
-            <button>
-                Carlos V
-            </button>
-            <button>Milky Way</button>
+            <button class="button-flavor">Ferrero</button>
+            <button class="button-flavor">Kisses</button>
+            <button class="button-flavor">Carlos V</button>
+            <button class="button-flavor">Milky Way</button>
         </div>
-        
-    </div>
-</div>
-<div>
+        <hr class="LINE">
+        <div class="counter-section">
+            <button (click)="decrement()" class="counter-button">-</button>
+            <span class="counter-value">{{ count }}</span>
+            <button (click)="increment()" class="counter-button">+</button>
+            <button (click)="addToCart()" class="add-to-cart-button">Agregar al Carrito</button>
+        </div>
 
+    </div>
+
+</div>
+<div class="info-section">
+    <button class="info-section">Detalles del producto </button>
+</div>
+
+<hr class="LINE">
+<div class="desc-section-detail">
+    <h1>Pastel de Cumpleaños La Divinata</h1>
+    <p> Este increible Pastel de cumpleaños que no puedes dejar de probar. ¡Aprovecha y envíalos a tus amigos, familiares o a esa persona especial sólo porque sí! </p>
+    <h2>Especificaciones del pastel</h2>
+    <p>-Pan de sabor vainilla decorado con betún de mantequilla y sprinkles. Relleno de dulce de leche.</p>
+    <p> -Contiene quinoa inflada</p>
+    <p>-Incluye vela chispera</p>
+    <p>-6 personas</p>
+    <p>-13cm de altura</p>
+    <p>-Color de la caja puede variar</p>
+    <p> -Sobre y tarjeta para mensaje</p>
 </div>
