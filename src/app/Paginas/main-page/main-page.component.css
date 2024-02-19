@@ -3,4 +3,6 @@ hr.Line {
     border: 1px solid;
     border-color: #b94242;
     opacity: 25%;
+    margin: auto;
 }
+

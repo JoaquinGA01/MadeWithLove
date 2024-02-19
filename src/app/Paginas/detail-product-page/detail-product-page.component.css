@@ -99,6 +99,7 @@ hr.LINE {
 .tittle {
     font-family: var(--principal-font-body-family);
     font-size: 300%;
+    margin: 0%;
 }
 
 .star {}

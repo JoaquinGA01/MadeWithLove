@@ -7,8 +7,10 @@
     justify-content: end;
     gap: 85px;
     position: relative;
-    background-color: var(--background-color);
-    margin: 2% 0;
+   /* background-color: var(--background-color);*/
+    background-image: url(Fondo-mwl.png) ;
+    background-repeat: repeat;
+   
 }
 
 .product-container .product-details{
