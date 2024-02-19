@@ -8,15 +8,22 @@ h1{
 }
 .Products{
   margin-left: 2%;
-  justify-content: space-between;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  
 }
+
+
 .product{
   width: 15%;
   height: 10%;
+ 
 }
 .Title{
   display: flex;
   align-items: center;
+  background-color: #FFF7F0;
 }
 .Like{
   background-color: #ff4081;
@@ -37,4 +44,22 @@ h1{
 img{
   width: 100%;
   height: auto;
+ 
+}
+.add-to-cart{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.add-to-cart:hover{
+  transform: scale(1.02)
+}
+
+.description .price{
+  font-family: var(--principal-font-body-family);
 }

@@ -26,7 +26,7 @@ body{
 /* Final Seccion Fuentes Importadas*/
 :root{
     --principal-font-family: "Amsterdam-One", Helvetica;
-    --principal-font-body-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    --principal-font-body-family: "Abhaya Libre ExtraBold-Regular", Helvetica, bold;
     --color-logo: rgba(203, 77, 126, 1);
     --background-color: #ffe3e3;
 }
