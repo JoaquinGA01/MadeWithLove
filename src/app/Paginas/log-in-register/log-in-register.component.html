@@ -1,15 +1,15 @@
 <div class="login-container">
     <h2>Iniciar sesión</h2>
-    <form>
+    <form #data="ngForm" (ngSubmit)="login(data)">
         <div class="form-group">
             <label for="email">Correo electrónico</label><br>
-            <input type="email" id="email" class="form-control" placeholder="Correo electrónico" required>
+            <input type="email" id="email" class="form-control" placeholder="Correo electrónico" ngModel #email="ngModel" name="email" required>
         </div>
         <div class="form-group">
             <label for="password">Contraseña</label><br>
-            <input type="password" id="password" class="form-control" placeholder="Contraseña"  required>
+            <input type="password" id="password" class="form-control" placeholder="Contraseña" ngModel name="password" required>
         </div>
-        <button type="submit" class="btn-login" (click)="login()" >Iniciar sesión</button>
+        <button type="submit" class="btn-login">Iniciar sesión</button>
     </form>
     <div class="login-footer">
         <a href="#">¿Nuevo en MWL?, Crea una cuenta</a> <br>

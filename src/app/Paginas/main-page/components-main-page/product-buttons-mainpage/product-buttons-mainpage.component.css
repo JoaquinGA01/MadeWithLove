@@ -8,7 +8,7 @@
     gap: 85px;
     position: relative;
     background-color: var(--background-color);
-   
+    margin: 2% 0;
 }
 
 .product-container .product-details{

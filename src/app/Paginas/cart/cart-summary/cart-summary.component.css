@@ -1,0 +1,11 @@
+.cart{
+    display: flex;
+    min-width: 100vh;
+}
+.cart-items{
+    width: 70%;
+    align-items: start;
+}
+.cart-summary{
+    width: 30%;
+}

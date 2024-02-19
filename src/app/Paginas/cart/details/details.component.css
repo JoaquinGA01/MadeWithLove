@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .contact-information-big{
+    width: 60%;
+  }
+  .order-summary{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 25%;
+    max-width: 25%;
+    margin-left: 5%;
+    background-color: #ffffff;
+  }
+  .order-summary *{
+    background-color: #ffffff;
+  }
+  .contact-information, .order-summary {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border: #ff0000 1px solid;
+  }
+  .contact-Columns{
+    width: 100%;
+    align-items: start;
+    display: flex;
+  }
+
+  .input-group {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-right: 5%;
+  }
+  .input-group input{
+    width: 40%;
+  }
+
+  .contact-information h2, .order-summary h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .contact-information input, .contact-information button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .contact-information input{
+    background-color: #ffffff;
+  }
+  
+  .contact-information button {
+    cursor: pointer;
+  }
+  
+  .order-summary .product-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .order-summary .price-details {
+    text-align: right; 
+    margin-top: 20px;
+  }
+  
+  label{
+    display: flex;
+    margin-bottom: 1%;
+  }
+  

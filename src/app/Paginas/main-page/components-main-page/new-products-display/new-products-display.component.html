@@ -1,18 +1,34 @@
-<div class="product-slider">
-    <div class="product-container" #productContainer>
-        <!-- *ngFor="let product of products"-->
-      <div class="product-card">
-        <img [src]="" alt="Product Image">
-        
-        <p class="product-title"><!--{{ product.name }}--></p>
-        <p class="product-price"><!--${{ product.price }}--></p>
-        <button class="add-to-cart">Agregar al carrito</button>
-        <!-- Aquí agregar la calificación con estrellas -->
+<div class="product-container">
+  <h1>Nuevos</h1>
+  <div class="Products">
+
+    <div class="product">
+      <div class="cart">
+        <div class="Title">
+          <h2>Nuevo </h2>
+          <button class="Like">3</button>
+        </div>
+
+        <img src="./assets/Imagenes-product-display/Ramos.png" alt="Product Image">
+        <button class="add-to-cart">Agregar a carrito</button>
       </div>
+      <div class="rating">★★★★★</div>
+      <p class="description">Desayuno premium</p>
+      <p class="price"><span class="old-price">$400.00</span> $199.00</p>
     </div>
-    <div class="scrollbar-container">
-        <!-- *ngFor="let product of products; let i = index" (click)="scrollToProduct(i)" --> 
-      <button class="scroll-button"  > •</button>
+    <div class="product">
+      <div class="cart">
+        <h2>Nuevo </h2>
+        <button class="Like">3</button>
+        <img src="./assets/Imagenes-product-display/Ramos.png" alt="Product Image">
+        <button class="add-to-cart">Agregar a carrito</button>
+      </div>
+      <div class="rating">★★★★★</div>
+      <p class="description">Desayuno premium</p>
+      <p class="price"><span class="old-price">$400.00</span> $199.00</p>
     </div>
+
   </div>
-  
+
+  <!-- Repeat for other products -->
+</div>

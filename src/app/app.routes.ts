@@ -5,6 +5,7 @@ import { CategoryPageComponent } from './Paginas/category-page/category-page.com
 import { ProfileComponent } from './Paginas/profile/profile.component';
 import { ShoppingBagPageComponent } from './Paginas/shopping-bag-page/shopping-bag-page.component';
 import { LogInRegisterComponent } from './Paginas/log-in-register/log-in-register.component';
+import { CartComponent } from './Paginas/cart/cart.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/Inicio', pathMatch: 'full' },
@@ -12,7 +13,8 @@ export const routes: Routes = [
     { path: 'Categorias', component: CategoryPageComponent },
     {path: 'Producto', component: DetailProductPageComponent}, 
     {path: 'Perfil', component: LogInRegisterComponent},
-    {path: 'Bolsadecompra', component: ShoppingBagPageComponent}
+    {path: 'Bolsadecompra', component: CartComponent},
+    {path: 'Carrito', component: CartComponent}
 
 ];
 

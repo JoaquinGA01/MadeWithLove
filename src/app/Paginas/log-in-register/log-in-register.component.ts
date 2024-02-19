@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-log-in-register',
@@ -12,10 +13,9 @@ export class LogInRegisterComponent {
   email = "";
   password = "";
 
-  constructor(){}
-
-  login() {
-    console.log(this.email);
-    console.log(this.password);
+  login(data: NgForm) {
+    console.log(data.value); // { first: '', last: '' }
+    console.log(data.valid);
+    console.log(data.value.email);
   }
 }
