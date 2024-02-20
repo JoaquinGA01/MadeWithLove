@@ -24,6 +24,7 @@ h1{
   display: flex;
   align-items: center;
   background-color: #FFF7F0;
+  justify-content: space-between;
 }
 .Like{
   background-color: #ff4081;
