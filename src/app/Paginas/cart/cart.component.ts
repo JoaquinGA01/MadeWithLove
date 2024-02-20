@@ -18,7 +18,7 @@ export class CartComponent {
     "details",
     "complet"
   ]
-  activeViewCurrently = 1; 
+  activeViewCurrently = 0; 
   activeView: String = this.views[this.activeViewCurrently] 
 
   changeView(opcion:number): void {

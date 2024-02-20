@@ -1,41 +1,144 @@
+<div class="cart">
+  
 
-    <div class="cart">
-      <div class="cart-items">
-        <div class="item">
-            <div class="product-image"></div>
-            <div class="product-details">
-              <h3>Ramo floral</h3>
-              <p>Color: Negro</p>
-            </div>
-            <div class="quantity-controls">
-              <button>-</button>
-              <input type="text" value="2">
-              <button>+</button>
-            </div>
-            <div class="product-price">$19.00</div>
-            <div class="product-subtotal">$38.00</div>
-            <button class="remove-item">Quitar</button>
-          </div>
+  <div class="product-list">
+    <div class="product-header">
+      <div>Producto</div>
+      <div>Cantidad</div>
+      <div>Precio</div>
+      <div>Subtotal</div>
+    </div>
+    <div class="product-item">
+      <div class="product-info">
+        <div class="product-image">
+          <img src="./assets/Imagenes-Cart/Producto-1.jpg" alt="">
         </div>
-  
-  
-        <div class="cart-summary">
-          <h3>Resumen de carrito</h3>
-          <div class="shipping-options">
-            <label><input type="radio" name="shipping" value="free"> Envío Gratis</label>
-            <label><input type="radio" name="shipping" value="express"> Envío Express +$15.00</label>
-            <label><input type="radio" name="shipping" value="pickup"> Recoger en sucursal +$21.00</label>
-          </div>
-          <div class="totals">
-            <div class="line-item">
-              <span>Subtotal</span>
-              <span>$1234.00</span>
-            </div>
-            <div class="line-item total">
-              <span>Total</span>
-              <span>$1345.00</span>
-            </div>
-          </div>
-          <button class="confirm-button">Confirmar</button>
+        <div class="product-description">
+          <div class="Title-Description">Ramo floral</div>
+          <div>Color: Negro</div>
+          <button>X Quitar</button>
         </div>
       </div>
+      <div class="quantity">
+        <button>-</button>
+        <input value="2">
+        <button>+</button>
+      </div>
+      <div class="price">$19.00</div>
+      <div class="subtotal1">$38.00</div>
+    </div>
+
+    <div class="product-item">
+      <div class="product-info">
+        <div class="product-image">
+          <img src="./assets/Imagenes-Cart/Producto-1.jpg" alt="">
+        </div>
+        <div class="product-description">
+          <div class="Title-Description">Ramo floral</div>
+          <div>Color: Negro</div>
+          <button>X Quitar</button>
+        </div>
+      </div>
+      <div class="quantity">
+        <button>-</button>
+        <input value="2">
+        <button>+</button>
+      </div>
+      <div class="price">$19.00</div>
+      <div class="subtotal1">$38.00</div>
+    </div>
+    <div class="product-item">
+      <div class="product-info">
+        <div class="product-image">
+          <img src="./assets/Imagenes-Cart/Producto-1.jpg" alt="">
+        </div>
+        <div class="product-description">
+          <div class="Title-Description">Ramo floral</div>
+          <div>Color: Negro</div>
+          <button>X Quitar</button>
+        </div>
+      </div>
+      <div class="quantity">
+        <button>-</button>
+        <input value="2">
+        <button>+</button>
+      </div>
+      <div class="price">$19.00</div>
+      <div class="subtotal1">$38.00</div>
+    </div>
+
+    <div class="product-item">
+      <div class="product-info">
+        <div class="product-image">
+          <img src="./assets/Imagenes-Cart/Producto-1.jpg" alt="">
+        </div>
+        <div class="product-description">
+          <div class="Title-Description">Ramo floral</div>
+          <div>Color: Negro</div>
+          <button>X Quitar</button>
+        </div>
+      </div>
+      <div class="quantity">
+        <button>-</button>
+        <input value="2">
+        <button>+</button>
+      </div>
+      <div class="price">$19.00</div>
+      <div class="subtotal1">$38.00</div>
+    </div>
+    <div class="product-item">
+      <div class="product-info">
+        <div class="product-image">
+          <img src="./assets/Imagenes-Cart/Producto-1.jpg" alt="">
+        </div>
+        <div class="product-description">
+          <div class="Title-Description">Ramo floral</div>
+          <div>Color: Negro</div>
+          <button>X Quitar</button>
+        </div>
+      </div>
+      <div class="quantity">
+        <button>-</button>
+        <input value="2">
+        <button>+</button>
+      </div>
+      <div class="price">$19.00</div>
+      <div class="subtotal1">$38.00</div>
+    </div>
+
+    
+    <!-- Repite el .product-item para cada producto -->
+  </div>
+  
+
+
+
+  <div class="cart-summary">
+    <h3>Resumen de carrito</h3>
+      <label>
+        <input type="radio" name="shipping" value="free" checked>
+        Envío Gratis
+        <span>$0.00</span>
+      </label>
+      <label>
+        <input type="radio" name="shipping" value="express">
+        Envío Express
+        <span>+$15.00</span>
+      </label>
+      <label>
+        <input type="radio" name="shipping" value="pickup">
+        Recoger en sucursal
+        <span>$21.00</span>
+      </label>
+      <div class="subtotal">
+        <span>Subtotal</span>
+        <span>$1234.00</span>
+      </div>
+      <div class="total">
+        <span>Total</span>
+        <span>$1345.00</span>
+      </div>
+      <button>Confirmar</button>
+  </div>
+
+</div>

@@ -12,7 +12,6 @@
     flex-direction: column;
     width: 30%;
     height: 25%;
-    max-width: 25%;
     margin-left: 5%;
     background-color: #ffffff;
   }
@@ -63,7 +62,7 @@
     cursor: pointer;
   }
   
-  .order-summary .product-summary {
+  .order-summary{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,8 +70,8 @@
   }
   
   .order-summary .price-details {
+    width: 100%;
     text-align: right; 
-    margin-top: 20px;
   }
   
   label{
@@ -80,3 +79,92 @@
     margin-bottom: 1%;
   }
   
+
+  /*Resumen*/
+  .product-list {
+    width: 100%;
+  }
+  
+  .product-header, .product-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .product-header {
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+  }
+  
+  .product-item {
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-bottom: 2px;
+  }
+  
+  .product-info {
+    display: flex;
+    gap: 10px;
+  }
+
+  .product-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 100%;
+  }
+
+  .product-description >div{
+    width: 100%;
+    font-size: 100%;
+    text-align: start;
+  }
+
+  .Title-Description{
+    font-weight: bold;
+  }
+  
+  .product-image img {
+    width: 75px;
+    height: auto;
+    background-color: #ddd; /* Placeholder for product image */
+  }
+  
+  .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .quantity input {
+    display: flex;
+    width: 15%;
+    text-align: center;
+    border: none;
+    justify-content: center;
+  }
+  
+  .price, .subtotal1 {
+    text-align: center;
+    display: block;
+  }
+  
+  button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #db5461;
+    color: white;
+  }

@@ -46,8 +46,8 @@
 }
 
 .carousel-inner img {
-    width: auto;
-    height: 400px;
+    width: 100vh;
+    height: auto;
     /* Tamaño de la imagen, ajusta según sea necesario */
     
     /* Mantiene la proporción de la imagen */

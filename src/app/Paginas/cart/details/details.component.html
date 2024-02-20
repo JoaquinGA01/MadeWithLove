@@ -45,7 +45,7 @@
       <button>Pago por tarjeta de crédito</button>
       <button>Paypal</button>
 
-      
+
       <label for="Numero de Tarjeta">Numero de Tarjeta</label>
       <input type="text" placeholder="Número de Tarjeta">
 
@@ -66,9 +66,68 @@
     <h2>Resumen de orden</h2>
     <!-- Aquí irían los componentes de los productos seleccionados -->
     <div class="product-summary">
-      <p>Nombre del producto</p>
-      <p>Cantidad</p>
-      <p>Precio</p>
+      <div class="product-list">
+        <div class="product-header">
+          <div>Producto</div>
+          <div>Precio</div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-info">
+            <div class="product-image">
+              <img src="./assets/Imagenes-Cart/Producto-1.jpg" alt="">
+            </div>
+            <div class="product-description">
+              <div class="Title-Description">Ramo floral</div>
+              <div>Color: Negro</div>
+              <div class="quantity">
+                <button>-</button>
+                <input value="2">
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+          <div class="price">$19.00</div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-info">
+            <div class="product-image">
+              <img src="./assets/Imagenes-Cart/Producto-1.jpg" alt="">
+            </div>
+            <div class="product-description">
+              <div class="Title-Description">Ramo floral</div>
+              <div>Color: Negro</div>
+              <div class="quantity">
+                <button>-</button>
+                <input value="2">
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+          <div class="price">$19.00</div>
+        </div>
+
+        <div class="product-item">
+          <div class="product-info">
+            <div class="product-image">
+              <img src="./assets/Imagenes-Cart/Producto-1.jpg" alt="">
+            </div>
+            <div class="product-description">
+              <div class="Title-Description">Ramo floral</div>
+              <div>Color: Negro</div>
+              <div class="quantity">
+                <button>-</button>
+                <input value="2">
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+          <div class="price">$19.00</div>
+        </div>
+
+        <!-- Repite el .product-item para cada producto -->
+      </div>
     </div>
     <!-- Repetir el div de arriba por cada producto -->
 

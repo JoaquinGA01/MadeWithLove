@@ -1,0 +1,9 @@
+.Contenido{
+    min-height: 77vh;
+    padding-bottom: 120px;
+    position: relative;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}

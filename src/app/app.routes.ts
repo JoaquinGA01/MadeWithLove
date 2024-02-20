@@ -12,7 +12,7 @@ export const routes: Routes = [
     { path: 'Inicio', component: MainPageComponent },
     { path: 'Categorias', component: CategoryPageComponent },
     {path: 'Producto', component: DetailProductPageComponent}, 
-    {path: 'Perfil', component: LogInRegisterComponent},
+    {path: 'Perfil', component: ProfileComponent},
     {path: 'Bolsadecompra', component: CartComponent},
     {path: 'Carrito', component: CartComponent}
 

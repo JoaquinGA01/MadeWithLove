@@ -1,20 +1,32 @@
-<div class="account-container">
-  <div class="sidebar">
-    <div class="profile">
-      <img src="path_to_image.jpg" alt="Foto de perfil">
-      <h3>Sofia Hernandez</h3>
+<!--
+  <div class="account-container">
+
+
+  <div class="user-panel">
+    <div class="user-info">
+      <div class="user-image">
+        <img src="path-to-user-image.jpg" alt="Sofia Hernandez">
+        <div class="camera-icon">
+         
+        </div>
+      </div>
+      <h2>Sofia Hernandez</h2>
     </div>
-    <nav class="navigation">
-      <ul>
-        <li (click)="changeView('details')">Cuenta</li>
-        <li (click)="changeView('addresses')">Dirección</li>
-        <li (click)="changeView('orders')">Pedidos</li>
-        <li>Cerrar Sesión</li>
-      </ul>
-    </nav>
+    <div class="user-menu">
+      <a href="#" class="menu-item">Cuenta</a>
+      <hr>
+      <a href="#" class="menu-item">Direccion</a>
+      <hr>
+      <a href="#" class="menu-item">Ordenes</a>
+      <hr>
+      <a href="#" class="menu-item">Log Out</a>
+    </div>
   </div>
+  
+
+
   <div class="account-details">
-    <!-- Sección de detalles de la cuenta -->
+    
     <div *ngIf="activeView === 'details'" class="form">
       <form>
         <h2>Detalles de la cuenta</h2>
@@ -33,14 +45,15 @@
       </form>
     </div>
     
-    <!-- Sección de direcciones del usuario -->
+    
     <div *ngIf="activeView === 'addresses'">
-      <!-- Aquí iría el HTML y el formulario para las direcciones de entrega y de pago, etc. -->
+      
     </div>
 
-    <!-- Sección de pedidos del usuario -->
+   
     <div *ngIf="activeView === 'orders'">
-      <!-- Aquí iría el HTML para mostrar los pedidos del usuario, etc. -->
+
     </div>
   </div>
 </div>
+-->
