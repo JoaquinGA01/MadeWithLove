@@ -104,20 +104,15 @@
       </div>
       <div class="price">$19.00</div>
       <div class="subtotal1">$38.00</div>
-    </div>
-
-    
+    </div>  
     <!-- Repite el .product-item para cada producto -->
   </div>
   
-
-
-
   <div class="cart-summary">
     <h3>Resumen de carrito</h3>
       <label>
         <input type="radio" name="shipping" value="free" checked>
-        Envío Gratis
+        Envío Gratis 
         <span>$0.00</span>
       </label>
       <label>
@@ -138,7 +133,7 @@
         <span>Total</span>
         <span>$1345.00</span>
       </div>
-      <button>Confirmar</button>
+      <button (click)="notifyChangeView(+1)">Confirmar</button>
   </div>
 
 </div>
