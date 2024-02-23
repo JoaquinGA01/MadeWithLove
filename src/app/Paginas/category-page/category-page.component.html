@@ -9,11 +9,12 @@
         <div class="container-list">
             <div class="category">
                 <h2 class="category-name">Cupcakes</h2>
-                <p class="listado">mostrando productos </p>
             </div>
             <div class="product-list">
                 <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
-                    <img src="./assets/Imagenes-detail-product-page/pastel4.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Imagenes-detail-product-page/pastel4.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
                     <div class="product-details">
                         <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
                         <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
@@ -23,106 +24,142 @@
                                 class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
                         </div>
                     </div>
-                    
-                    
+                    <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-                <div class="product-item"><!--*ngFor="let product of products"-->
-                    <img class="Product-Img" src="./assets/Imagenes-detail-product-page/pastel4.png"
-                        alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
-                    <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
-                    <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
-                    <div class="price">
-                        <span class="new-price">$435<!--{{ product.price | currency }}--></span>
-                        <span
-                            class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+
+                <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Category/Imagen 1.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
+                        <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
+                        <div class="price">
+                            <span class="new-price">$435<!--{{ product.price | currency }}--></span>
+                            <span
+                                class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+                        </div>
                     </div>
                     <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-                <div class="product-item"><!--*ngFor="let product of products"-->
-                    <img class="Product-Img" src="./assets/Imagenes-detail-product-page/pastel4.png"
-                        alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
-                    <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
-                    <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
-                    <div class="price">
-                        <span class="new-price">$435<!--{{ product.price | currency }}--></span>
-                        <span
-                            class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+
+                <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Category/Imagen 5.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
+                        <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
+                        <div class="price">
+                            <span class="new-price">$435<!--{{ product.price | currency }}--></span>
+                            <span
+                                class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+                        </div>
                     </div>
                     <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-                <div class="product-item"><!--*ngFor="let product of products"-->
-                    <img class="Product-Img" src="./assets/Imagenes-detail-product-page/pastel4.png"
-                        alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
-                    <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
-                    <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
-                    <div class="price">
-                        <span class="new-price">$435<!--{{ product.price | currency }}--></span>
-                        <span
-                            class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+
+                <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Category/Imagen 2.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
+                        <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
+                        <div class="price">
+                            <span class="new-price">$435<!--{{ product.price | currency }}--></span>
+                            <span
+                                class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+                        </div>
                     </div>
                     <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-                <div class="product-item"><!--*ngFor="let product of products"-->
-                    <img class="Product-Img" src="./assets/Imagenes-detail-product-page/pastel4.png"
-                        alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
-                    <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
-                    <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
-                    <div class="price">
-                        <span class="new-price">$435<!--{{ product.price | currency }}--></span>
-                        <span
-                            class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+
+
+                <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Category/Imagen 3.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
+                        <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
+                        <div class="price">
+                            <span class="new-price">$435<!--{{ product.price | currency }}--></span>
+                            <span
+                                class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+                        </div>
                     </div>
                     <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-                <div class="product-item"><!--*ngFor="let product of products"-->
-                    <img class="Product-Img" src="./assets/Imagenes-detail-product-page/pastel4.png"
-                        alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
-                    <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
-                    <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
-                    <div class="price">
-                        <span class="new-price">$435<!--{{ product.price | currency }}--></span>
-                        <span
-                            class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+
+
+                <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Category/Imagen 2.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
+                        <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
+                        <div class="price">
+                            <span class="new-price">$435<!--{{ product.price | currency }}--></span>
+                            <span
+                                class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+                        </div>
                     </div>
                     <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-                <div class="product-item"><!--*ngFor="let product of products"-->
-                    <img class="Product-Img" src="./assets/Imagenes-detail-product-page/pastel4.png"
-                        alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
-                    <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
-                    <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
-                    <div class="price">
-                        <span class="new-price">$435<!--{{ product.price | currency }}--></span>
-                        <span
-                            class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+
+
+                <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Category/Imagen 3.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
+                        <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
+                        <div class="price">
+                            <span class="new-price">$435<!--{{ product.price | currency }}--></span>
+                            <span
+                                class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+                        </div>
                     </div>
                     <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-                <div class="product-item"><!--*ngFor="let product of products"-->
-                    <img class="Product-Img" src="./assets/Imagenes-detail-product-page/pastel4.png"
-                        alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
-                    <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
-                    <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
-                    <div class="price">
-                        <span class="new-price">$435<!--{{ product.price | currency }}--></span>
-                        <span
-                            class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+
+
+                <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Category/Imagen 4.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
+                        <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
+                        <div class="price">
+                            <span class="new-price">$435<!--{{ product.price | currency }}--></span>
+                            <span
+                                class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+                        </div>
                     </div>
                     <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-                <div class="product-item"><!--*ngFor="let product of products"-->
-                    <img class="Product-Img" src="./assets/Imagenes-detail-product-page/pastel4.png"
-                        alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
-                    <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
-                    <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
-                    <div class="price">
-                        <span class="new-price">$435<!--{{ product.price | currency }}--></span>
-                        <span
-                            class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+
+
+                <div class="product-item" routerLink="/Producto"><!--*ngFor="let product of products"-->
+                    <div class="Imagen-Product">
+                        <img src="./assets/Category/Imagen 5.png" class="Product-Img" alt="Producto imagen" /><!-- [src]="product.imageUrl" alt="{{ product.name }}"-->
+                    </div>
+                    <div class="product-details">
+                        <h3 class="titulo-product"><!--{{ product.name }}-->Cupcakes adornados</h3>
+                        <p class="class-desc"><!--{{ product.description }}-->5 Cupcakes adornados</p>
+                        <div class="price">
+                            <span class="new-price">$435<!--{{ product.price | currency }}--></span>
+                            <span
+                                class="old-price">$1231<!--*ngIf="product.oldPrice" {{ product.oldPrice | currency }}--></span>
+                        </div>
                     </div>
                     <button class="addcart"> <!--(click)="addToCart(product)"-->Agregar al Carrito</button>
                 </div>
-    
+
             </div>
         </div>
     </div>

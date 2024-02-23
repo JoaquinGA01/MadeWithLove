@@ -168,3 +168,33 @@
     background-color: #db5461;
     color: white;
   }
+
+  .order-summary > .confirm {
+    width: 100%;
+    background-color: #db5461;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-summary > .confirm:hover {
+    background-color: #c03a4b;
+  }
+
+  .order-summary > .Regresar {
+    margin-top: 1%;
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-summary > .Regresar:hover {
+    background-color: #757575;
+    color: white;
+  }

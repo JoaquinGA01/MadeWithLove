@@ -15,8 +15,7 @@ export class CarouselComponent {
         this.i = 0;
         this.slides = [
             './assets/Imagenes-Header/Principal.png',
-            'https://ep01.epimg.net/elcomidista/imagenes/2022/01/11/receta/1641893642_902475_1641893828_noticia_normal.jpg',
-            './assets/Imagenes-Header/Principal.png',
+            './assets/Imagenes-Header/Principal 2.png',
         ];
     }
     getSlide() {

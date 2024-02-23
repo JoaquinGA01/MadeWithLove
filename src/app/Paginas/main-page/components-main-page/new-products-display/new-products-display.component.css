@@ -20,21 +20,27 @@ h1{
   height: 10%;
  
 }
+
+.product > p{
+  font-weight: bold;
+}
+.old-price{
+  margin-left: 5%;
+  text-decoration: line-through;
+  color: #52504f;
+}
 .Title{
   display: flex;
   align-items: center;
   background-color: #FFF7F0;
   justify-content: space-between;
+  padding: 0 3%;
 }
-.Like{
-  background-color: #ff4081;
-  color: white;
+svg{
+  background-color: #FFF7F0;
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
 }
 
 .cart{
