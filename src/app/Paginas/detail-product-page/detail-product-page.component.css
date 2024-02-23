@@ -2,6 +2,10 @@
     font-family: var(--principal-font-body-family);
 }
 
+.general-container{
+    margin: 2% 13% 0% 13%;
+}
+
 hr.LINE {
     border-radius: 5px;
     border: 1px solid;
