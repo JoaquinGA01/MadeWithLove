@@ -1,59 +1,24 @@
-<!--
-  <div class="account-container">
-
-
+<div class="account-container">
   <div class="user-panel">
-    <div class="user-info">
-      <div class="user-image">
-        <img src="path-to-user-image.jpg" alt="Sofia Hernandez">
-        <div class="camera-icon">
-         
-        </div>
-      </div>
-      <h2>Sofia Hernandez</h2>
-    </div>
-    <div class="user-menu">
-      <a href="#" class="menu-item">Cuenta</a>
-      <hr>
-      <a href="#" class="menu-item">Direccion</a>
-      <hr>
-      <a href="#" class="menu-item">Ordenes</a>
-      <hr>
-      <a href="#" class="menu-item">Log Out</a>
-    </div>
+    <app-options-panel></app-options-panel>
   </div>
-  
+
 
 
   <div class="account-details">
-    
+
     <div *ngIf="activeView === 'details'" class="form">
-      <form>
-        <h2>Detalles de la cuenta</h2>
-        <label for="name">NOMBRE</label>
-        <input class="input-holder" type="text" id="name" placeholder="Nombre">
-        <label for="surname">APELLIDOS</label>
-        <input class="input-holder" type="text" id="surname" placeholder="Apellidos">
-        <label for="email">CORREO</label>
-        <input class="input-holder" type="email" id="email" placeholder="Correo">
-        <h2>Contraseña</h2>
-        <label for="new-password">NUEVA CONTRASEÑA</label>
-        <input class="input-holder" type="password" id="new-password" placeholder="Nueva Contraseña">
-        <label for="repeat-password">REPITE LA CONTRASEÑA</label>
-        <input class="input-holder" type="password" id="repeat-password" placeholder="Repite la nueva contraseña">
-        <button type="submit">Guardar cambios</button>
-      </form>
+      <app-details></app-details>
     </div>
-    
-    
+
+
     <div *ngIf="activeView === 'addresses'">
-      
+      <app-addresses></app-addresses>
     </div>
 
-   
-    <div *ngIf="activeView === 'orders'">
 
+    <div *ngIf="activeView === 'history'">
+      <app-history></app-history>
     </div>
   </div>
 </div>
--->

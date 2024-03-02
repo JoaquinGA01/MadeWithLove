@@ -3,7 +3,7 @@
 }
 
 .general-container{
-    margin: 2% 13% 0% 13%;
+    margin: 2% 5% 0% 5%;
 }
 
 hr.LINE {
@@ -98,15 +98,11 @@ hr.LINE {
 
 /*Descripcion item section*/
 
-.desc-item {}
-
 .tittle {
     font-family: var(--principal-font-body-family);
     font-size: 300%;
     margin: 0%;
 }
-
-.star {}
 
 .price {
     font-size: 25px;
@@ -192,10 +188,6 @@ hr.LINE {
 /*butons secciones*/
 .info-section{
     padding: 2% 5% 2% 5%;
-}
-
-.detail-button{
-    
 }
 
 /*detalles del producto*/
